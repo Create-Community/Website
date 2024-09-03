@@ -1,0 +1,15 @@
+				<footer class="site-footer text-light">
+					<div class="container">
+						<div class="site-footer-inner has-top-divider">
+							<div class="brand footer-brand">
+								<a href="#">
+										<title>{{ .Site.Title }}</title>
+                                        <img src="images/logo.ico" width="75" height="75">
+								</a>
+							</div>
+							{{ partial "nav.html" . }}
+							{{ partial "social.html" . }}
+							<div class="footer-copyright">&copy; {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}, all rights reserved</div>
+						</div>
+					</div>
+				</footer>

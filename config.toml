@@ -1,0 +1,106 @@
+baseURL = "192.168.119.224"
+languageCode = "en-us"
+title = "Create.Community"
+theme = "Agnes"
+
+
+[params]
+	dateFormat = "2 Jan, 2023" 
+	authorName = "Create Community Members"
+	google_analytics_id = "GA-"
+	 
+	
+	
+[menu]
+	[[menu.main]]
+		Name = "Contact"
+		URL = "mailto:create.community.society@gmail.com"
+		weight = 1
+	
+	[[menu.main]]
+		Name = "About us"
+		URL = "#"
+		weight = 2
+	
+	[[menu.main]]
+		Name = "FAQ's"
+		URL = "#"
+		weight = 3
+		
+[params.social]
+	InstagramURL = "https://www.instagram.com/create.community.society"
+	GoogleURL = "mailto:create.community.society@gmail.com"
+	PatreonURL = "http://patreon.com/CreateCommunity"
+		
+[params.content]
+	LeadTitle = "Creating Community through Collaboration and Technology"
+	LeadDescription = "Help us create more collabrative spaces in every community"
+	ButtonCaption = "How to Support Us"
+	ButtonURL = "https://linktr.ee/create.community"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+	FeatureTitle = "Workspaces"
+	FeatureDescription = "Collabratively driven workspaces with a focus on community engagement."
+	FeatureImage = "images/workspaces.jpg"
+	
+[[params.feature]]
+	FeatureTitle = "Outreach"
+	FeatureDescription = "Expanding into new communities, our outreach is supporting other makerspaces to realize their potential and support in their pursuit of community driven spaces."
+	FeatureImage = "images/outreach.jpg"
+
+[[params.feature]]
+	FeatureTitle = "Community"
+	FeatureDescription = "Fostering connections, expanding learning opportunities, and being open to anyone. That is our community."
+	FeatureImage = "images/community.jpg"
+	
+[[params.feature]]
+	FeatureTitle = "Creativity"
+	FeatureDescription = "Inspiring new ways of approaching ideas and developing new techniques that lead to innovative problem solving."
+	FeatureImage = "images/creativity.jpg"
+	
+################### Pricing Columns (do not exceed 3) ####################
+
+[[params.pricing]]
+	PricingTitle = "Drop-in"
+	PricingRate = "30"	
+	PricingTime = " Per Day"
+	ButtonCaption = "Get started by just dropping by"
+ 	ButtonURL = "https://example.com/drop-in.html"
+	[[params.pricing.Features]]
+		Description = "Drop in and use open workspaces"
+	[[params.pricing.Features]]
+		Description = "No monthly commitment"
+	[[params.pricing.Features]]
+		Description = "Limited access to tools and services"
+	[[params.pricing.Features]]
+		Description = "Bring a friend for a discounted rate"	
+
+[[params.pricing]]
+	PricingTitle = "Monthly Member"
+	PricingRate = "75"
+	PricingTime = "/mo"
+	ButtonCaption = "Pay monthly"
+ 	ButtonURL = "https://example.com/monthly.html"
+	[[params.pricing.Features]]
+		Description = "Monthly hour allocation for tools"
+	[[params.pricing.Features]]
+		Description = "Walk-in any hour of the day at no cost"
+	[[params.pricing.Features]]
+		Description = "Priority reservations for events"
+	[[params.pricing.Features]]
+		Description = "Yearly tool hour rollovers"		
+	
+[[params.pricing]]
+	PricingTitle = "Yearly"
+	PricingRate = "810"
+	PricingTime = "/yr"
+	ButtonCaption = "Pay yearly, get a discount of 10%"
+ 	ButtonURL = "https://example.com/Yearly.html"
+	[[params.pricing.Features]]
+		Description = "10% discount"
+	[[params.pricing.Features]]
+		Description = "Reserved work space"
+	[[params.pricing.Features]]
+		Description = "Discounted classes"	
