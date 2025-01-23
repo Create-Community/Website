@@ -1,4 +1,4 @@
-baseURL = "192.168.119.224"
+baseURL = 'https://example.org/'
 languageCode = "en-us"
 title = "Create.Community"
 theme = "Agnes"
@@ -19,11 +19,11 @@ theme = "Agnes"
 	
 	[[menu.main]]
 		Name = "About us"
-		URL = "#"
+		URL = "/aboutus/"
 		weight = 2
 	
 	[[menu.main]]
-		Name = "FAQ's"
+		Name = "FAQs"
 		URL = "#"
 		weight = 3
 		
