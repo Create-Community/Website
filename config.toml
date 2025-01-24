@@ -9,7 +9,6 @@ theme = "Agnes"
 	authorName = "Create Community Members"
 	google_analytics_id = "GA-"
 	favicon = "favicon.ico"
-	disablePathToLower = true
 	 
 	
 	

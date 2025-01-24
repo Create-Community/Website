@@ -3,7 +3,6 @@ title = 'FAQs'
 date = 2025-01-23T20:13:25-08:00
 draft = false
 url = '/faqs/'
-layout = 'single'
 +++
 
 {{< details title="Learn More" summary="**How Do I Start Using The Space?**">}}
