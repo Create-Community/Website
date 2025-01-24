@@ -8,6 +8,8 @@ theme = "Agnes"
 	dateFormat = "2 Jan, 2023" 
 	authorName = "Create Community Members"
 	google_analytics_id = "GA-"
+	favicon = "favicon.ico"
+	disablePathToLower = true
 	 
 	
 	
@@ -18,13 +20,13 @@ theme = "Agnes"
 		weight = 1
 	
 	[[menu.main]]
-		Name = "About us"
-		URL = "/aboutus/"
+		Name = "About Us"
+		URL = "/about-us/"
 		weight = 2
 	
 	[[menu.main]]
 		Name = "FAQs"
-		URL = "#"
+		URL = "/faqs/"
 		weight = 3
 		
 [params.social]
