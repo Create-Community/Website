@@ -1,9 +1,10 @@
 +++
-title = 'About Us'
 date = 2025-01-22T21:09:51-08:00
 draft = false
 url = '/about-us/'
 +++
+
+# About Us
 
 Non profit Shared community workshop for individuals to work on crafting, art, or skilled trade projects\
 Provide third space for casual or serious(re-word) use\

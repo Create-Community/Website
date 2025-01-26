@@ -1,5 +1,5 @@
 {{ define "main" }}
-			<section class="hero">
+			<section class="hero" onclick="()=>{console.log('click')}">
 				<div class="container">	
 					<div class="hero-inner">
 						<div class="hero-copy">
@@ -76,7 +76,7 @@
 			</section>
 			<section class="features section text-center">
 				<div class="section-square"></div>
-				<div class="container">
+				<div class="container" >
 					<div class="features-inner section-inner">
                         <div class="features-wrap">
 							{{ range site.Params.feature }}

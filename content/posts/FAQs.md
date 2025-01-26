@@ -1,23 +1,24 @@
 +++
-title = 'FAQs'
 date = 2025-01-23T20:13:25-08:00
 draft = false
 url = '/faqs/'
 +++
+
+# FAQs
 
 {{< details title="Learn More" summary="**How Do I Start Using The Space?**">}}
 Drop in during any open hours, and all that's needed is to fill out safety waiver.
 {{< /details >}}
 
 {{< details title="Learn More" summary="**Do I Need Membership?**">}}
-No, there will be a free-to-use work area available to everyone. but power tools and machinery, materials, and reserved space will have fees.
+
+<a style="margin-left: 130px"> No, there will be a free-to-use work area available to everyone. but power tools and machinery, materials, and reserved space will have fees.</a>
+
 {{< /details >}}
 
 {{< details title="Learn More" summary="**What's Included in a Membership?**">}}
 The base-level membership will include free use of power tools, machinery, and space reservations.
-
 Extra tier members will also provide:
-
 {{< /details >}}
 
 {{< details title="Learn More" summary="**How Much Will it Cost?**">}}

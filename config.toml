@@ -68,7 +68,7 @@ theme = "Agnes"
 	PricingRate = "30"	
 	PricingTime = " Per Day"
 	ButtonCaption = "Get started by just dropping by"
- 	ButtonURL = "https://example.com/drop-in.html"
+ 	ButtonURL = "/drop-in/"
 	[[params.pricing.Features]]
 		Description = "Drop in and use open workspaces"
 	[[params.pricing.Features]]
@@ -83,7 +83,7 @@ theme = "Agnes"
 	PricingRate = "75"
 	PricingTime = "/mo"
 	ButtonCaption = "Pay monthly"
- 	ButtonURL = "https://example.com/monthly.html"
+ 	ButtonURL = "https://www.patreon.com/CreateCommunity"
 	[[params.pricing.Features]]
 		Description = "Monthly hour allocation for tools"
 	[[params.pricing.Features]]
@@ -98,7 +98,7 @@ theme = "Agnes"
 	PricingRate = "810"
 	PricingTime = "/yr"
 	ButtonCaption = "Pay yearly, get a discount of 10%"
- 	ButtonURL = "https://example.com/Yearly.html"
+ 	ButtonURL = "Yearly/"
 	[[params.pricing.Features]]
 		Description = "10% discount"
 	[[params.pricing.Features]]
