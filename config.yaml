@@ -39,12 +39,12 @@ menus:
       url: "/#"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "About Us"
+      url: "/about"
       weight: 2
 
-    - name: "Our team"
-      url: "/about"
+    - name: "FAQs"
+      url: "/faqs"
       weight: 3
 
     - name: "Pricing"
