@@ -1,0 +1,14 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Creating **Community** through Collaboration and Technology"
+  text: "Help us create more collabrative spaces in every community"
+
+  buttonPrimary:
+    label: "How we work"
+    url: "#"
+
+  buttonSecondary:
+    label: "Let's talk"
+    url: ""

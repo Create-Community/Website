@@ -2,23 +2,19 @@ baseURL: "http://localhost:1313/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Up Business"
+title: "Create Community"
 
 # googleAnalytics: ""
 
 summaryLength: 20
 
-sections:
-  brands:
-    main:
-
 params:
-  title: "Up Business"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  title: "Create Community"
+  description: "A community-oriented workspace providing the tools and resources for (almost) any project you can think of."
   images:
-    - "images/hero-image.png"
+    - "images/logo.png"
 
-  logo: "arrow-up.png"
+  logo: "favicon.ico"
 
   favicons:
     themeColor: "#FFFFFF"
@@ -26,25 +22,21 @@ params:
     faviconColor: "#000000"
 
   social:
-    dribbble: "#"
-    instagram: "#"
-    facebook: "#"
-    twitter: "#"
+    instagram: "https://www.instagram.com/create.community.society"
+    patreon: "https://www.patreon.com/CreateCommunity"
 
   location:
-    - "3891 Ranchview Dr. Richardson, California 62639"
-    - "4517 Washington Ave. Manchester, Kentucky 39495"
+    - "Kelowna, BC"
 
   contact:
-    - "trungkienspktnd@gamail.com"
-    - "207.555.0119"
+    - "createcommunity@gmail.com"
 
-  copyright: "© 2022 Up Business All Rights Reserved"
+  copyright: "© 2025 Create Community Members, all rights reserved"
 
 menus:
   main:
     - name: "Home"
-      url: "/#hero"
+      url: "/#"
       weight: 1
 
     - name: "How we work"
@@ -52,7 +44,7 @@ menus:
       weight: 2
 
     - name: "Our team"
-      url: "/#"
+      url: "/about"
       weight: 3
 
     - name: "Pricing"
