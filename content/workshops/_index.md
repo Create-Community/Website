@@ -1,7 +1,7 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "Posts"
+title = "Our Workshops"
 author = "Hugo Authors"
 tags = ["index"]
-URL = "/blog/"
+URL = "/workshops/"
 +++

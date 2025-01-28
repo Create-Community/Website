@@ -2,13 +2,9 @@ enabled: true
 id: "hero"
 
 content:
-  title: "Creating **Community** through Collaboration and Technology"
-  text: "Help us create more collabrative spaces in every community"
+  title: "Creating **Community** Through Collaboration and Technology"
+  text: "Help us create more collabrative spaces in every community."
 
   buttonPrimary:
-    label: "How we work"
-    url: "#"
-
-  buttonSecondary:
-    label: "Let's talk"
-    url: ""
+    label: "How To Support Us"
+    url: "https://linktr.ee/create.community"

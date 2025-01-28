@@ -39,8 +39,8 @@ menus:
       url: "/#"
       weight: 1
 
-    - name: "About Us"
-      url: "/about"
+    - name: "Who We Are"
+      url: "/who-we-are"
       weight: 2
 
     - name: "FAQs"
@@ -51,8 +51,8 @@ menus:
       url: "/#"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
+    - name: "Workshops"
+      url: "/workshops"
       weight: 5
 
   buttons:
@@ -62,24 +62,24 @@ menus:
       pre: "btn btn-primary text-light"
 
   footer:
-    - name: "Home"
-      url: "/#hero"
+    - name: "Who We Are"
+      url: "/who-we-are"
       weight: 1
 
-    - name: "How we work"
-      url: "/#"
+    - name: "FAQs"
+      url: "/faqs"
       weight: 2
 
     - name: "Our team"
-      url: "/#"
+      url: "/our-team"
       weight: 3
 
     - name: "Pricing"
-      url: "/#"
+      url: "/pricing"
       weight: 4
 
-    - name: "Blog"
-      url: "/blog"
+    - name: "Contact Us"
+      url: "/contact-us"
       weight: 5
 
 taxonomies:

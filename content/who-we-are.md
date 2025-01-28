@@ -1,9 +1,10 @@
 +++
-title = "About Us"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
+
+# Who We Are
 
 Non profit Shared community workshop for individuals to work on crafting, art, or skilled trade projects\
 Provide third space for casual or serious(re-word) use\

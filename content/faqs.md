@@ -1,15 +1,21 @@
 +++
+title = 'Frequently Asked Questions'
+date = 2021-01-01T00:00:00-00:00
+draft = false
+layout = "faqs"
++++
+
+<!-- +++
 author = "Hugo Authors"
-title = "Placeholder Text"
 date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet"
 tags = [
     "markdown",
     "text",
 ]
+layout = "faqs"
 +++
 
-# Frequently Asked Questions
+
 
 {{< details title="Learn More" summary="**How Do I Start Using The Space?**">}}
 Drop in during any open hours, and all that's needed is to fill out safety waiver.
@@ -17,7 +23,7 @@ Drop in during any open hours, and all that's needed is to fill out safety waive
 
 {{< details title="Learn More" summary="**Do I Need Membership?**">}}
 
-<a style="margin-left: 130px"> No, there will be a free-to-use work area available to everyone. but power tools and machinery, materials, and reserved space will have fees.</a>
+No, there will be a free-to-use work area available to everyone. but power tools and machinery, materials, and reserved space will have fees.
 
 {{< /details >}}
 
@@ -44,4 +50,4 @@ Through passing our safety assessment for specific items
 
 {{< details title="Learn More" summary="**What Types of Projects Can I Work On?**">}}
 Anything that has a designated area in our space. If there is something we missed, please let us know and we will try to accommodate it
-{{< /details >}}
+{{< /details >}} -->
