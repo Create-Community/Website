@@ -2,26 +2,40 @@ enabled: true
 id: "services"
 
 content:
-  title: "Our main services"
-  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  title: "Pricing"
+  # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
   cards:
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      price: "$5/day"
+      title: "Drop-In"
+      info:
+        - text: "Drop in and use open workspaces"
+        - text: "No monthly commitment"
+        - text: "Limited access to tools and services"
+        - text: "Bring a friend for a discounted rate"
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      price: "$75/mo"
+      title: "Monthly Member"
+      info:
+        - text: "Monthly hour allocation for tools"
+        - text: "Walk-in any hour of the day at no cost"
+        - text: "Priority reservations for events"
+        - text: "Yearly tool hour rollovers"
       button:
         label: "Learn more"
         url: "#"
 
     - image: "images/services-web-development.png"
-      title: "Web development"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie in malesuada eget fames purus ligula luctus tellus. Habitant condimentum sit gravida praesent. "
+      price: "$810/yr"
+      title: "Yearly Member"
+      info:
+        - text: "10% discount"
+        - text: "Reserved work space"
+        - text: "Discounted classes"
       button:
         label: "Learn more"
         url: "#"
