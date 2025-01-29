@@ -1,0 +1,87 @@
+baseURL: "http://localhost:1313/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Create.Community"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Create Community"
+  description: "A community-oriented workspace providing the tools and resources for (almost) any project you can think of."
+  images:
+    - "images/logo.png"
+
+  logo: "favicon.ico"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    instagram: "https://www.instagram.com/create.community.society"
+    patreon: "https://www.patreon.com/CreateCommunity"
+
+  location:
+    - "Kelowna, BC"
+
+  contact:
+    - "createcommunity@gmail.com"
+
+  copyright: "© 2025 Create Community Members, all rights reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#"
+      weight: 1
+
+    - name: "Who We Are"
+      url: "/who-we-are"
+      weight: 2
+
+    - name: "FAQs"
+      url: "/faqs"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 4
+
+    - name: "Workshops"
+      url: "/workshops"
+      weight: 5
+
+  buttons:
+    - name: "Book a call"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Who We Are"
+      url: "/who-we-are"
+      weight: 1
+
+    - name: "FAQs"
+      url: "/faqs"
+      weight: 2
+
+    - name: "Our team"
+      url: "/our-team"
+      weight: 3
+
+    - name: "Pricing"
+      url: "/pricing"
+      weight: 4
+
+    - name: "Contact Us"
+      url: "/contact-us"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
