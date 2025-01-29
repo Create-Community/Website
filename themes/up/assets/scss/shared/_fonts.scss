@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "HindVadodara";
+  src: url("{{ site.BaseURL }}/fonts/HindVadodara-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "HindVadodara";
+  src: url("{{ site.BaseURL }}/fonts/HindVadodara-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "HindVadodara";
+  src: url("{{ site.BaseURL }}/fonts/HindVadodara-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
