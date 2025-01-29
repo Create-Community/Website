@@ -4,27 +4,30 @@ id: "portfolio"
 content:
   - image: "images/workspaces.jpg"
     pretitle: "Workspaces"
-    title: "Collabratively driven workspaces with a focus on community engagement."
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+    title: "Collaboratively driven workspaces with a focus on accessibility through technology."
+    text: "We strive to bring dynamic workspaces to areas that would benefit from them the most. We hope to bring creative third-spaces to neighbourhoods where work space at home is limited. With software  developed in-house, we give every member full access to our active tool and material inventory, as well as a method of reserving private work stations."
 
-    buttons:
-      - label: "Read more"
-        url: "#"
+    # buttons:
+    #   - label: "Read more"
+    #     url: "/workspaces/"
+# "/workspaces/" details each currently open workspace/partner space
 
   - image: "images/outreach.jpg"
     pretitle: "Community"
     title: "Fostering connections, expanding learning opportunities, and being open to anyone."
-    text: "Expanding into new communities, our outreach is supporting other makerspaces to realize their potential and offer help in their pursuit of community driven spaces. That is our community."
+    text: "By expanding into new communities, our outreach supports other local groups or makerspaces in realizing their dreams. We offer resources, a framework, and potential funding to help in their pursuit of community driven spaces, because we are all a community."
 
-    buttons:
-      - label: "Read more"
-        url: "#"
+    # buttons:
+    #   - label: "Read more"
+    #     url: "/community/"
+# "/community/" lists all significant community projects and events we've organized/participated in
 
   - image: "images/creativity.jpg"
     pretitle: "Creativity"
-    title: "We developed an eCommerce website"
-    text: "Inspiring new ways of approaching ideas and developing new techniques that lead to innovative problem solving."
+    title: "Inspiring New Ways of Approaching Ideas"
+    text: "We offer an evolving schedule of carefully designed workshops to give participants the best oppurtunity to express their full creativity. With these workshops, we hope to provide a foundation of knowledge and motivation to start or grow each member's passion for creation. We are always developing new techniques that lead to innovative problem solving."
 
-    buttons:
-      - label: "Read more"
-        url: "#"
+    # buttons:
+    #   - label: "Read more"
+    #     url: "/workshops/"
+#"/workshops/" lists upcoming, current, and past class (or workshops) that we've hosted
