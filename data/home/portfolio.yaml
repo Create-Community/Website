@@ -4,8 +4,8 @@ id: "portfolio"
 content:
   - image: "images/workspaces.jpg"
     pretitle: "Workspaces"
-    title: "Collaboratively driven workspaces with a focus on accessibility through technology."
-    text: "We strive to bring dynamic workspaces to areas that would benefit from them the most. We hope to bring creative third-spaces to neighbourhoods where work space at home is limited. With software  developed in-house, we give every member full access to our active tool and material inventory, as well as a method of reserving private work stations."
+    title: "Collaboratively driven workspaces with a focus on accessibility through technology"
+    text: "We strive to bring dynamic workspaces to areas that would benefit from them the most. We hope to bring creative third-spaces to neighbourhoods where work space at home is limited. With software developed in-house, we give every member full access to our active tool and material inventory, as well as a method of reserving private workstations."
 
     # buttons:
     #   - label: "Read more"
@@ -14,8 +14,8 @@ content:
 
   - image: "images/outreach.jpg"
     pretitle: "Community"
-    title: "Fostering connections, expanding learning opportunities, and being open to anyone."
-    text: "By expanding into new communities, our outreach supports other local groups or makerspaces in realizing their dreams. We offer resources, a framework, and potential funding to help in their pursuit of community driven spaces, because we are all a community."
+    title: "Fostering connections, expanding learning opportunities, and being open to anyone"
+    text: "By expanding into new communities, our outreach supports other local groups or makerspaces in realizing their dreams. All extra revenue we receive is used to grow a fund that can be accessed by other groups who are ready to make an impact with us. We offer resources, a framework, and potential funding to help in their pursuit of community driven spaces."
 
     # buttons:
     #   - label: "Read more"
@@ -25,7 +25,7 @@ content:
   - image: "images/creativity.jpg"
     pretitle: "Creativity"
     title: "Inspiring New Ways of Approaching Ideas"
-    text: "We offer an evolving schedule of carefully designed workshops to give participants the best oppurtunity to express their full creativity. With these workshops, we hope to provide a foundation of knowledge and motivation to start or grow each member's passion for creation. We are always developing new techniques that lead to innovative problem solving."
+    text: "We host an evolving schedule of carefully designed workshops to give participants the best opportunity to express their full creativity. With these workshops, we hope to provide a foundation of knowledge and motivation to start or grow each member's passion for creation. We are always developing new techniques that lead to innovative problem solving."
 
     # buttons:
     #   - label: "Read more"
