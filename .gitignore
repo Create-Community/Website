@@ -1,3 +1,4 @@
 public/
-resources/_gen/
+resources/_gen/resources/_gen/*
 themes/up-business-theme/resources/
+assets/scss/shared/shared.scss_48fd4b08d671b240d1856ca4b1f5f682.content
