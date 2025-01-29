@@ -1,0 +1,30 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/workspaces.jpg"
+    pretitle: "Workspaces"
+    title: "Collabratively driven workspaces with a focus on community engagement."
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+    buttons:
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/outreach.jpg"
+    pretitle: "Community"
+    title: "Fostering connections, expanding learning opportunities, and being open to anyone."
+    text: "Expanding into new communities, our outreach is supporting other makerspaces to realize their potential and offer help in their pursuit of community driven spaces. That is our community."
+
+    buttons:
+      - label: "Read more"
+        url: "#"
+
+  - image: "images/creativity.jpg"
+    pretitle: "Creativity"
+    title: "We developed an eCommerce website"
+    text: "Inspiring new ways of approaching ideas and developing new techniques that lead to innovative problem solving."
+
+    buttons:
+      - label: "Read more"
+        url: "#"
