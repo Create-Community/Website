@@ -15,7 +15,7 @@ content:
         - text: "Bring a friend for a discounted rate"
       button:
         label: "Learn more"
-        url: "#"
+        url: "https://www.patreon.com/CreateCommunity"
 
     - image: "images/services-web-development.png"
       price: "$75/mo"
@@ -27,7 +27,7 @@ content:
         - text: "Yearly tool hour rollovers"
       button:
         label: "Learn more"
-        url: "#"
+        url: "https://www.patreon.com/CreateCommunity"
 
     - image: "images/services-web-development.png"
       price: "$810/yr"
@@ -36,6 +36,7 @@ content:
         - text: "10% discount"
         - text: "Reserved work space"
         - text: "Discounted classes"
+        - text: "SOMETHING ELSE"
       button:
         label: "Learn more"
-        url: "#"
+        url: "https://www.patreon.com/CreateCommunity"

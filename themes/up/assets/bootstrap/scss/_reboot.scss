@@ -607,12 +607,10 @@ progress {
 .hero-section {
   align-content: center;
   position: relative;
-  height: 70vh;
+  height: auto;
   width: 100%;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
   background: linear-gradient(50deg, rgba($secondary, 0.3), rgba($blue, 0.7));
 }
 
@@ -632,19 +630,17 @@ progress {
 .hero {
   position: relative;
   z-index: 2;
+  margin-top: 85px;
+}
+
+.navbar-brand {
+  justify-items: flex-start;
 }
 
 // Details
 
 details {
   margin: 25px;
-}
-
-//  Nav
-
-nav {
-  height: 80px;
-  flex: 1;
 }
 
 // Summary
