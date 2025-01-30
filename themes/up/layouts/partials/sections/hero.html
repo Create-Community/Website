@@ -1,5 +1,5 @@
-<section class="section py-5 hero-section ">
-  <div class="container hero">
+<section class="section hero py-5 hero-section">
+  <div class="container hero-content">
     <div class="  row flex-column flex-xl-row-reverse ">
       <div class="col-12 col-xl-6 d-flex flex-column hero-image">
         {{ partial "utilities/image-fluid" "images/logo.png" }}
@@ -9,7 +9,7 @@
           <h1 class="hero-title fw-bold display-4 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h4>
         {{ end }}
         {{ with .content.text }}
-          <p class="fw-bold text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
+          <p class="hero-text fw-bold text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
         {{ end }}
         <div class="d-flex flex-column flex-xl-row">
           {{ with .content.buttonPrimary }}

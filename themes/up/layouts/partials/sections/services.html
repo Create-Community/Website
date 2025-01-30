@@ -18,15 +18,17 @@
           {{ end }}
           <!-- {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }} -->
           <div class="card-body text-center">
-            {{ with .price }}
-            <h3 class="card-title text-center text-primary pb-4">{{ . }}</h3>
-            {{ end }} {{ range .info }} {{ with .text }}
-            <p class="card-text text-black-61">{{ . }}</p>
-            {{ end }} {{ end }} {{ with .button }}<a
-              class="btn btn-outline-primary px-4 mt-4"
-              href="{{ .url }}"
-              >{{ .label }}</a
-            >{{ end }}
+            <div>
+              {{ with .price }}
+              <h3 class="card-title text-center text-primary pb-4">{{ . }}</h3>
+              {{ end }} {{ range .info }} {{ with .text }}
+              <li class="card-text text-start text-black-61">{{ . }}</li>
+              {{ end }} {{ end }} {{ with .button }}<a
+                class="btn btn-outline-primary px-4 mt-4"
+                href="{{ .url }}"
+                >{{ .label }}</a
+              >{{ end }}
+            </div>
           </div>
         </div>
       </div>
