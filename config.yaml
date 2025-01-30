@@ -31,6 +31,28 @@ params:
   contact:
     - "createcommunity@gmail.com"
 
+  hours:
+    - day: "Monday"
+      time: "closed"
+
+    - day: "Tueday"
+      time: "closed"
+
+    - day: "Wednesday"
+      time: "5pm-9pm"
+
+    - day: "Thursday"
+      time: "5pm-9pm"
+
+    - day: "Friday"
+      time: "5pm-9pm"
+
+    - day: "Saturday"
+      time: "10am-6pm"
+
+    - day: "Sunday"
+      time: "10am-6pm"
+
   copyright: "© 2025 Create Community Members, all rights reserved"
 
 menus:

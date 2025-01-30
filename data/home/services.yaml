@@ -36,7 +36,7 @@ content:
         - text: "10% discount"
         - text: "Reserved work space"
         - text: "Discounted classes"
-        - text: "SOMETHING ELSE"
+        - text: "Exclusive access to member events"
       button:
         label: "Learn more"
         url: "https://www.patreon.com/CreateCommunity"
