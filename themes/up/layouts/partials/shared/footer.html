@@ -1,7 +1,7 @@
 <footer class="shared footer bg-blue-light py-5">
   <div class="container">
     <div class="row pb-5">
-      <div class="col-xl-30 col-xl-4 text-center text-xl-start pb-4">
+      <div style="width: 30.5%" class="col-xl-4 text-center text-xl-start pb-4">
         <h4 class="fs-4 fw-semibold text-uppercase text-primary">
           {{ .Site.Title }}
         </h4>
@@ -54,7 +54,10 @@
         </ul>
         {{ end }}
       </div>
-      <div class="col-xl-175 col-12 text-center text-xl-start pb-4">
+      <div
+        style="width: 15%"
+        class="col-12 col-12 text-center text-xl-start pb-4"
+      >
         <h5 class="fs-6 fw-semibold text-primary">About Us</h5>
         <ul class="list-unstyled">
           {{ range .Site.Menus.footer }}
@@ -68,7 +71,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-xl-2 col-12 text-center text-xl-start pb-4">
+      <div style="width: 16%" class="col-12 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Location</h5>
         <ul class="list-unstyled">
           {{ range .Site.Params.location }}
@@ -83,7 +86,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-xl-175 col-12 text-center text-xl-start pb-4">
+      <div style="width: 21%" class="col-12 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Contact us</h5>
         {{ range .Site.Params.contact }}
         <p class="small text-black-61 mb-1">{{ . }}</p>
