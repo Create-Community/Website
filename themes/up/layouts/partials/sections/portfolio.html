@@ -1,6 +1,13 @@
 <section class="section portfolio">
   <div class="container">
-    {{ range .content }}
+    <div class="row justify-content-center pb-6">
+      <div class="col-12 col-xl-6">
+        {{ with .content.title }}
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        {{ end }}
+      </div>
+    </div>
+    {{ range .content.sections }}
     <div class="row portfolio-feature">
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
         {{ with .image }} {{ partial "utilities/image-fluid.html" . }} {{ end }}
@@ -9,7 +16,7 @@
         {{ with .pretitle }}
         <p class="text-danger fw-semibold mt-4">{{ . }}</p>
         {{ end }} {{ with .title }}
-        <h3 class="fs-1 fw-bold text-primary">{{ . }}</h3>
+        <h3 class="fs-2 fw-bold text-primary">{{ . }}</h3>
         {{ end }} {{ with .text }}
         <p class="text-black-61">{{ . }}</p>
         {{ end }}
