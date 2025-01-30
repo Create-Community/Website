@@ -602,40 +602,7 @@ progress {
   margin: 15px;
 }
 
-//Hero
-
-.hero-section {
-  align-content: center;
-  position: relative;
-  height: auto;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(50deg, rgba($secondary, 0.3), rgba($blue, 0.7));
-}
-
-.hero-section:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  background-image: url("../images/workspaces.jpg");
-  background-size: cover;
-  opacity: 0.2;
-}
-
-.hero {
-  position: relative;
-  z-index: 2;
-  margin-top: 85px;
-}
-
-.navbar-brand {
-  justify-items: flex-start;
-}
+//Her
 
 // Details
 
@@ -656,14 +623,3 @@ summary {
 summary:hover {
   color: $link-hover-color;
 }
-
-//FAQs
-
-.faqs-title {
-  margin: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-// .card-text {
-//   text-align: start;
-// }

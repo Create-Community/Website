@@ -1,15 +1,46 @@
+.hero-section {
+  align-content: center;
+  position: relative;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(20deg, rgba($secondary, 0.9), rgba($blue, 0.4));
+}
+
+.hero-section:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-image: url("../images/workspaces.jpg");
+  background-size: cover;
+  opacity: 0.15;
+}
+
 .section.hero {
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 85px;
+  }
   .hero-image {
-    // @media (min-width: 1400px) {
-    //   img {
-    //     max-width: 125%;
-    //     float: right;
-    //   }
-    // }
+    align-self: center;
+    @media (min-width: 1400px) {
+      img {
+        max-width: 125%;
+      }
+    }
   }
   .hero-title {
     strong {
       color: $danger;
     }
+  }
+  .hero-text {
+    color: $primaryDark;
   }
 }
