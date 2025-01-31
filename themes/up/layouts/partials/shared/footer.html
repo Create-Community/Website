@@ -89,10 +89,8 @@
         <p class="small text-black-61 mb-1">{{ . }}</p>
         {{ end }}
       </div>
-      <div class="col-12 col-xl-2 text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-left text-primary">
-          Hours of Operation
-        </h5>
+      <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
+        <h5 class="fs-6 fw-semibold text-primary">Hours of Operation</h5>
         {{ range .Site.Params.hours }}
         <div class="row">
           <p class="small col-6 text-black-61 mb-1">{{.day}}</p>
