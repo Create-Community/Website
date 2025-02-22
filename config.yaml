@@ -1,7 +1,6 @@
 baseURL: "http://localhost:1313/"
 theme: "up"
 languageCode: "en-us"
-
 title: "Create.Community"
 
 # googleAnalytics: ""
@@ -69,9 +68,9 @@ menus:
       url: "/faqs"
       weight: 3
 
-    # - name: "Pricing"
-    #   url: "/#"
-    #   weight: 4
+    - name: "About Us"
+      url: "/AboutUs"
+      weight: 4
 
     # - name: "Workshops"
     #   url: "/workshops"
@@ -107,3 +106,8 @@ menus:
 taxonomies:
   series: "series"
   tags: "tags"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

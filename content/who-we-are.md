@@ -1,11 +1,11 @@
 +++
 title = "Who We Are"
-date = "2019-02-28"
+date = "2025-02-01"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Hugo Authors"
 +++
 
-Non profit Shared community workshop for individuals to work on crafting, art, or skilled trade projects\
+Non profit shared community workshop for individuals to work on crafting, art, or skilled trade projects\
 Provide third space for casual or serious(re-word) use\
 Accessible to anyone\
 Contribute to community fund intended for opening smaller spaces in other neighbourhoods, specialized to align with local needs\
