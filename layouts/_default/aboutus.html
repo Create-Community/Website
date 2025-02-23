@@ -8,36 +8,30 @@
         <h2 class="page-title display-3 fw-bold text-center text-primary pb-3">
           {{ . }}
         </h2>
-        {{ end }} {{ with .Params.description }}
+        {{ end }} 
+        <!-- {{ with .Params.description }}
         <p class="text-black-61 text-center">{{ . }}</p>
-        {{ end }}
+        {{ end }} -->
       </div>
     </div>
 
-    <div class="flex-row" style="display: flex; padding: auto; justify-content: center; background-color: black;">
-      <div class="container col-6" style="background-color: aquamarine; ">
-        <img src="/images/profile/0 (1).jpg" style="width: 100px; " />
-        <div style="align-items: center">
-          <h2 class="text-center">Me</h2>
-        </div>
-        <div>
-          <h5 class="text-center">adassdda</h5>
-        </div>
-        <div>
-          <p class="text-center">adassdda</p>
-        </div>
+    <div class="flex-row my-2" style="display: flex; justify-content: center">
+      {{ range site.Data.aboutus.content.team }}
+      <div class="container col-6">
+          <div class="col-auto" style="justify-items: center">
+            <div>
+              <img style="object-fit: cover; width: 100%; max-width: 350px; aspect-ratio: 1/1;"
+                src="{{.img }}" />
+            </div>
+            <h2 class="text-center row mt-3" >{{.name}}</h2>
+            <h4 class="text-center">{{.position}}</h4>
+            <h4 class="text-center col-10 fs-5">{{.bio}}</p>
+          </div>
       </div>
+      {{end}}
 
-      <div class="container col-6" style="background-color: aquamarine; ">
-        <img src="/images/profile/9EEouL5.png" style="width: 100%;" />
-      <div class="row" style="align-items: center">
-        <h2 class="text-center">You</h2>
-      </div>
-      <div class="row">
-        <p class="col-12">adassdda</p>
-      </div>
     </div>
-    <div class="row pb-5"></div>
+
   </div>
 </section>
 {{ end }}

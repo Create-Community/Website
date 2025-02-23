@@ -1,0 +1,16 @@
+enabled: true
+id: "aboutus"
+
+content:
+  team:
+    - img: "/images/profile/0 (1).jpg"
+      name: "Mi"
+      degree: "We work with customers brands and startups "
+      position: "We work with customers brands and startups "
+      bio: "We work with customers brands and startups "
+
+    - img: "/images/profile/546125511.png"
+      name: "Bra"
+      degree: "We work with customers brands and startups "
+      position: "We work with customers brands and startups "
+      bio: "We work with customers brands and startups "
