@@ -19,7 +19,7 @@ content:
 
     - image: "images/services-web-development.png"
       # price: "$75/mo"
-      title: "Monthly Member"
+      title: "Base Member"
       info:
         - text: "Monthly hour allocation for tools"
         - text: "Walk-in any hour of the day at no cost"
