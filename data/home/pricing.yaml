@@ -6,7 +6,7 @@ content:
   # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
   cards:
     - image: "images/services-web-development.png"
-      price: "$5/day"
+      # price: "$5/day"
       title: "Drop-In"
       info:
         - text: "Drop in and use open workspaces"
@@ -18,7 +18,7 @@ content:
         url: "https://www.patreon.com/CreateCommunity"
 
     - image: "images/services-web-development.png"
-      price: "$75/mo"
+      # price: "$75/mo"
       title: "Monthly Member"
       info:
         - text: "Monthly hour allocation for tools"
@@ -30,10 +30,9 @@ content:
         url: "https://www.patreon.com/CreateCommunity"
 
     - image: "images/services-web-development.png"
-      price: "$810/yr"
-      title: "Yearly Member"
+      # price: "$125/mo"
+      title: "Plus Member"
       info:
-        - text: "10% discount"
         - text: "Reserved work space"
         - text: "Discounted classes"
         - text: "Exclusive access to member events"
