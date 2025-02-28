@@ -35,6 +35,7 @@ content:
       info:
         - text: "Reserved work space"
         - text: "Discounted classes"
+        - text: "Discounted classes"
         - text: "Exclusive access to member events"
       button:
         label: "Learn more"
