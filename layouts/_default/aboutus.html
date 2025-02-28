@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section class="section blog-single py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        {{ with .Title }}
+        <h2 class="page-title display-3 fw-bold text-center text-primary pb-3">
+          {{ . }}
+        </h2>
+        {{ end }} 
+        <!-- {{ with .Params.description }}
+        <p class="text-black-61 text-center">{{ . }}</p>
+        {{ end }} -->
+      </div>
+    </div>
+
+    <div class="flex-row my-2" style="display: flex; justify-content: center; margin: 0 auto">
+      {{ range site.Data.aboutus.content.team }}
+      <div class="container col-6">
+        <div class="col-auto" style="justify-content: center">
+          <div style="text-align: center">
+              <img style="object-fit: cover; width: 100%; max-width: 350px; aspect-ratio: 1/1;; margin: 0 auto; border-radius: 50%;"
+                src="{{.img }}" />
+            </div>
+              <h2 class="row mt-3 justify-content-center" style="text-align: center; " >{{.name}}</h2>
+            <h4 style="text-align: center; margin: 0 auto">{{.position}}</h4>
+            <h4 class="col-10 fs-5 mt-2" style="text-align: center; margin: 0 auto">{{.bio}}</p>
+          </div>
+      </div>
+      {{end}}
+
+    </div>
+
+  </div>
+</section>
+{{ end }}
