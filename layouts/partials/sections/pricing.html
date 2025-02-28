@@ -25,16 +25,18 @@
               <h3 class="card-title text-center text-primary pb-4">{{ . }}</h3>
               {{ end }} {{ range .info }} {{ with .text }}
               <li class="card-text text-start text-black-61">{{ . }}</li>
-              {{ end }} {{ end }} {{ with .button }}<a
-                class="btn btn-outline-primary px-4 mt-4"
-                href="{{ .url }}"
-                >{{ .label }}</a
-              >{{ end }}
+              {{ end }} {{ end }}
             </div>
           </div>
         </div>
       </div>
       {{ end }}
+    </div>
+    <div class="text-center mt-3">
+      {{ with .content.sectionButton }}
+      <a class="btn btn-outline-primary px-4 mt-4" href="{{ .url }}"
+        >{{ .label }}</a
+      >{{ end }}
     </div>
   </div>
 </section>

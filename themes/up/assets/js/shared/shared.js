@@ -6,7 +6,7 @@ import "./_footer";
 import "../sections/hero";
 import "../sections/brands";
 import "../sections/portfolio";
-import "../sections/services";
+import "../sections/pricing";
 import "../sections/testimonials";
 import "../sections/cta";
 
