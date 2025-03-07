@@ -68,8 +68,8 @@ menus:
       url: "/faqs"
       weight: 3
 
-    - name: "About Us"
-      url: "/AboutUs"
+    - name: "Our Team"
+      url: "/our-team"
       weight: 4
 
     # - name: "Workshops"
@@ -91,9 +91,9 @@ menus:
       url: "/faqs"
       weight: 2
 
-    # - name: "Our team"
-    #   url: "/our-team"
-    #   weight: 3
+    - name: "Our team"
+      url: "/our-team"
+      weight: 3
 
     # - name: "Pricing"
     #   url: "/pricing"
