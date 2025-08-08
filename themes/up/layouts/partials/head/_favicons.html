@@ -1,7 +1,7 @@
 {{- $favicon := resources.Get "images/favicon.ico" -}} {{- with resources.Get
 "uploads/favicon.ico" -}} {{- $favicon = . -}} {{- end -}} {{- $favicon = slice
 $favicon | resources.Concat "favicon.ico" -}} {{- $logo := resources.Get
-"images/logo.png" -}} {{- with .Site.Params.logo -}} {{- with resources.Get .
+"images/icon.png" -}} {{- with .Site.Params.logo -}} {{- with resources.Get .
 -}} {{- $logo = . -}} {{- end -}} {{- end -}} {{- $favicon32png := partial
 "utilities/create-favicon.html" (dict "logo" $logo "filename" "favicon-32.png"
 "size" "32x32") -}} {{- $favicon57png := partial "utilities/create-favicon.html"
@@ -95,7 +95,7 @@ $resourceIEConfig := $resourceIEConfigTemplate | resources.ExecuteAsTemplate
 />
 
 <!-- Favicons targeted to any additional png sizes that you add that aren't covered above: -->
-<link rel="icon" href="{{ $favicon32png.Permalink }}" sizes="32x32" />
+<link rel="icon" href="{{ $favicon32png.Permalink }}" sizes="196x196" />
 
 <!-- Favicon Chrome for Android -->
 <link

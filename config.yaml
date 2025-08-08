@@ -13,7 +13,7 @@ params:
   images:
     - "images/logo.png"
 
-  logo: "favicon.ico"
+  logo: "images/icon.png"
 
   favicons:
     themeColor: "#FFFFFF"
