@@ -26,6 +26,14 @@
               >{{ partial "icons/instagram.html" }}</a
             >
           </li>
+          {{ end }} {{ with .discord }}
+          <li class="rounded-circle bg-blue-63 me-2 p-2">
+            <a
+              class="d-flex align-items-center justify-content-center size-16"
+              href="{{ . }}"
+              >{{ partial "icons/discord.html" }}</a
+            >
+          </li>
           {{ end }} {{ with .patreon }}
           <li class="rounded-circle bg-blue-63 me-2 p-2">
             <a
@@ -34,7 +42,7 @@
               >{{ partial "icons/patreon.html" }}</a
             >
           </li>
-          {{ end }} {{ with .facebook }}
+          {{ end }}{{ with .facebook }}
           <li class="rounded-circle bg-blue-63 me-2 p-2">
             <a
               class="d-flex align-items-center justify-content-center size-16"
@@ -84,9 +92,17 @@
         </ul>
       </div>
       <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">Contact us</h5>
+        <h5 class="fs-6 fw-semibold text-primary">Contact</h5>
+
         {{ range .Site.Params.contact }}
-        <p class="small text-black-61 mb-1">{{ . }}</p>
+
+        <li class="d-flex justify-content-center justify-content-xl-start mb-2">
+          <div class="d-flex align-items-center text-primary">
+            {{ partial "icons/email.html" }}
+          </div>
+          <p class="small text-black-61 m-0 ps-2">{{ . }}</p>
+        </li>
+
         {{ end }}
       </div>
       <!-- <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
