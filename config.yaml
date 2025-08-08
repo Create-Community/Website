@@ -22,13 +22,14 @@ params:
 
   social:
     instagram: "https://www.instagram.com/create.community.society"
+    discord: "https://discord.gg/xqfM4sezCr"
     patreon: "https://www.patreon.com/CreateCommunity"
 
   location:
     - "Kelowna, BC"
 
   contact:
-    - "createcommunity@gmail.com"
+    - "info@createcommunity.space"
 
   hours:
     - day: "Monday"
@@ -72,15 +73,15 @@ menus:
       url: "/our-team"
       weight: 4
 
-    # - name: "Workshops"
-    #   url: "/workshops"
+    # - name: "Community"
+    #   url: "/newsletter"
     #   weight: 5
 
-  buttons:
-    - name: "Book a call"
-      url: "/#"
-      weight: 5
-      pre: "btn btn-primary text-light"
+  # buttons:
+  #   - name: "Book a call"
+  #     url: "/#"
+  #     weight: 5
+  #     pre: "btn btn-primary text-light"
 
   footer:
     - name: "Who We Are"

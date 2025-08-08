@@ -9,3 +9,7 @@ content:
   buttonPrimary:
     label: "How To Support Us"
     url: "https://linktr.ee/create.community"
+
+  buttonSecondary:
+    label: "Donate"
+    url: "https://donorbox.org/kelowna-launch"
