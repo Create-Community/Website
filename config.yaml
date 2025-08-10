@@ -25,6 +25,10 @@ params:
     discord: "https://discord.gg/xqfM4sezCr"
     patreon: "https://www.patreon.com/CreateCommunity"
 
+  image:
+    - "images/workspaces.png"
+    - "images/logo.png"
+
   location:
     - "Kelowna, BC"
 
@@ -73,9 +77,9 @@ menus:
       url: "/our-team"
       weight: 4
 
-    # - name: "Community"
-    #   url: "/newsletter"
-    #   weight: 5
+    - name: "Community"
+      url: "/workshops"
+      weight: 5
 
   # buttons:
   #   - name: "Book a call"
