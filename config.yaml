@@ -86,11 +86,11 @@ menus:
       parent: Community
       weight: 1
 
-    - name: Newsletter
-      pageRef: /community/newsletter
-      url: "/newsletter"
-      parent: Community
-      weight: 2
+    # - name: Newsletter
+    #   pageRef: /community/newsletter
+    #   url: "/newsletter"
+    #   parent: Community
+    #   weight: 2
 
   # buttons:
   #   - name: "Book a call"
