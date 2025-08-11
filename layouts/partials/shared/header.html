@@ -6,8 +6,8 @@
     >
       {{ partial "utilities/image.html" "images/logo.png" }}
       <span class="header-title ps-3 ps-3 fs-1 fw-semibold text-primary"
-        >{{ .Site.Title }} </span
-      >
+        >{{ .Site.Title }}
+      </span>
     </a>
     <button
       class="navbar-toggler"
@@ -24,7 +24,21 @@
       <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
         {{ range .Site.Menus.main }}
         <li class="nav-item text-center">
+         
+          {{ if .HasChildren }}
+          <li class="nav-item dropdown text-center ">
+            <a class="nav-link dropdown-toggle px-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              {{ .Name }}
+            </a>
+            <ul class="dropdown-menu bg-blue-light">
+            {{ range .Children }}
+            <li class="py-1"><a  style="text-decoration:none" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+          </li>
+          {{else}}
           <a class="nav-link px-4" href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
         </li>
         {{ end }}
       </ul>
