@@ -25,6 +25,10 @@ params:
     discord: "https://discord.gg/xqfM4sezCr"
     patreon: "https://www.patreon.com/CreateCommunity"
 
+  image:
+    - "images/workspaces.png"
+    - "images/logo.png"
+
   location:
     - "Kelowna, BC"
 
@@ -78,7 +82,6 @@ menus:
 
     - name: Workshops
       pageRef: /community/workshops
-
       url: "/workshops"
       parent: Community
       weight: 1
