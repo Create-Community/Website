@@ -1,0 +1,32 @@
+<section class="section services py-5">
+  <div class="container">
+    <div class="row justify-content-center pb-6">
+      <div class="col-12 col-xl-8">
+        {{ with .content.title }}
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        {{ end }} {{ with .content.text }}
+        <p class="text-black-61 text-center pb-3">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row justify-content-center pb-6">
+      <script
+        src="https://donorbox.org/widget.js"
+        paypalExpress="false"
+      ></script>
+      <iframe
+        class="mx-auto row justify-content-center"
+        src="https://donorbox.org/embed/kelowna-launch?"
+        name="donorbox"
+        allowpaymentrequest="allowpaymentrequest"
+        seamless="seamless"
+        frameborder="0"
+        scrolling="no"
+        height="900px"
+        width="100%"
+        style="max-width: 400px; min-width: 250px; max-height: none !important"
+        allow="payment"
+      ></iframe>
+    </div>
+  </div>
+</section>
