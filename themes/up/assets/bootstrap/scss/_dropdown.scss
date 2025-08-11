@@ -23,11 +23,10 @@
   margin: 0; // Override default margin of ul
   @include font-size($dropdown-font-size);
   color: $dropdown-color;
-  text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
+  text-align: center; // Ensures proper alignment if parent has it changed (e.g., modal footer)
   list-style: none;
   background-color: $dropdown-bg;
   background-clip: padding-box;
-  border: $dropdown-border-width solid $dropdown-border-color;
   @include border-radius($dropdown-border-radius);
   @include box-shadow($dropdown-box-shadow);
 
@@ -115,7 +114,6 @@
     }
   }
 }
-
 
 // Dividers (basically an `<hr>`) within the dropdown
 .dropdown-divider {
