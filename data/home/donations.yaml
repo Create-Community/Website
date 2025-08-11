@@ -1,0 +1,6 @@
+enabled: true
+id: "donations"
+
+content:
+  title: "Please Consider Leaving a Donation"
+  text: "All proceeds will go towards a communty fund which we use to open spaces for people"

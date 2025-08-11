@@ -1,7 +1,8 @@
 {{ define "main" }} {{ with .Site.Data.home.hero }}{{ partial
 "sections/hero.html" . }}{{ end }} {{ with .Site.Data.home.portfolio }}{{
 partial "sections/portfolio.html" . }}{{ end }} {{ with .Site.Data.home.pricing
-}}{{ partial "sections/pricing.html" . }}{{ end }}
+}}{{ partial "sections/pricing.html" . }}{{ end }} {{ with
+.Site.Data.home.donations}} {{ partial "sections/donations.html" . }} {{ end }}
 <!-- 
   {{ with .Site.Data.home.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
 
