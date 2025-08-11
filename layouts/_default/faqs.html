@@ -3,26 +3,20 @@
 <section class="section blog-single py-5">
   <div class="container">
     <div class="row justify-content-center pb-5">
-      <div class="col-12">
+      <div class="justify-content-center">
         {{ with .Title }}
         <h2 class="page-title display-4 fw-bold text-center text-primary pb-3">
           {{ . }}
         </h2>
         {{ end }} {{ range site.Data.faqs }}
-        <details>
-          <summary class="h3">{{ .q }}</summary>
-          <p>{{ .a }}</p>
-          <p>{{ .a1 }}</p>
+        <details class="col-8 mx-auto">
+          <summary class="h3 col-auto">{{ .q }}</summary>
+          <p class="col-auto">{{ .a }}</p>
+          <p class="col-auto">{{ .a1 }}</p>
         </details>
         {{ end }}
       </div>
     </div>
-    <div class="row pb-5">
-      <div class="col-12 d-flex justify-content-center">
-        <div class="blog-content fs-5">{{ .Content }}</div>
-      </div>
-    </div>
-    <div class="row pb-5"></div>
   </div>
 </section>
 
