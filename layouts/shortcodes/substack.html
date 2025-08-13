@@ -1,6 +1,6 @@
 {{ if .Get "url" }} {{ $url := .Get "url" }} {{ $limit := .Get "limit" }}
 
-<div class="py-8 flex" style="background-color: aliceblue">
+<div class="py-8 flex">
   <iframe
     class="grid grid-cols-1 md:grid-cols-2 bg-white shadow-lg border border-gray-200 rounded-lg p-4 cursor-pointer mb-6 md:mb-10 mt-5"
     src="https://createcommunitysociety.substack.com/embed"
@@ -22,7 +22,7 @@
       <p class="text-slate-400 muted text-sm">
         {{ dateFormat "January 2, 2006" .pubDate }}
       </p>
-      <p class="text-gray-800 mb-4">{{ .encoded | safeHTML | truncate 5}}</p>
+      <p class="text-gray-800 mb-4">{{ .encoded | safeHTML}}</p>
     </div>
   </div>
 
