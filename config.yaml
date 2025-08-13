@@ -69,16 +69,14 @@ menus:
       weight: 2
 
     - name: Workshops
-      pageRef: /community/workshops
       url: "/workshops"
       parent: Community
       weight: 1
 
-    # - name: Newsletter
-    #   pageRef: /community/newsletter
-    #   url: "/newsletter"
-    #   parent: Community
-    #   weight: 2
+    - name: Substack
+      url: "/substack"
+      parent: Community
+      weight: 2
 
     # buttons:
     #   - name: "Book a call"
