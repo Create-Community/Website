@@ -65,38 +65,36 @@ menus:
       url: "/#"
       weight: 1
 
-    - name: "Who We Are"
-      url: "/who-we-are"
+    - name: "Community"
       weight: 2
 
-    - name: "FAQs"
-      url: "/faqs"
-      weight: 3
-
-    - name: "Our Team"
-      url: "/our-team"
-      weight: 4
-
-    - name: "Community"
-      weight: 5
-
     - name: Workshops
-      pageRef: /community/workshops
       url: "/workshops"
       parent: Community
       weight: 1
 
-    # - name: Newsletter
-    #   pageRef: /community/newsletter
-    #   url: "/newsletter"
-    #   parent: Community
-    #   weight: 2
+    - name: Substack
+      url: "/substack"
+      parent: Community
+      weight: 2
 
-  # buttons:
-  #   - name: "Book a call"
-  #     url: "/#"
-  #     weight: 5
-  #     pre: "btn btn-primary text-light"
+    # buttons:
+    #   - name: "Book a call"
+    #     url: "/#"
+    #     weight: 5
+    #     pre: "btn btn-primary text-light"
+
+    - name: "Who We Are"
+      url: "/who-we-are"
+      weight: 3
+
+    - name: "FAQs"
+      url: "/faqs"
+      weight: 4
+
+    - name: "Our Team"
+      url: "/our-team"
+      weight: 5
 
   footer:
     - name: "Who We Are"
