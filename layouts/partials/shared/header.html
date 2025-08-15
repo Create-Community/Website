@@ -1,15 +1,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-blue-light">
-  <div class="container" style="max-width:100%;">
+  <div class="container" style="max-width:100%; 
+  margin-top: 7px;margin-bottom: 7px;">
     <a
       class="navbar-brand d-flex align-items-center"
       href="{{ .Site.BaseURL }}"
+      style="margin-left: 10px;"
     >
-      {{ partial "utilities/image.html" "images/logo.png" }}
-      <span class="header-title ps-3 ps-3 fs-1 fw-semibold text-primary"
+      {{ partial "utilities/image.html" "images/icon.png" }}
+      <div style="margin-left: 10px;margin-top: 5px;margin-right: 5px;"> {{ partial "utilities/image-fluid.html" "images/title.png" }}</div>
+      
+      <!-- <span class="header-title ps-3 ps-3 fs-1 fw-semibold text-primary" style="font-family: 'Times New Roman', serif;"
         >{{ .Site.Title }}
-      </span>
+      </span> -->
     </a>
     <button
       class="navbar-toggler"

@@ -1,7 +1,7 @@
 baseURL: "http://localhost:1313/"
 theme: "up"
 languageCode: "en-us"
-title: "Create.Community"
+title: "Create Community"
 
 # googleAnalytics: ""
 
