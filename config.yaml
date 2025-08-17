@@ -46,16 +46,16 @@ params:
       time: "5pm-9pm"
 
     - day: "Thursday"
-      time: "5pm-9pm"
+      time: "closed"
 
     - day: "Friday"
-      time: "5pm-9pm"
+      time: "closed"
 
     - day: "Saturday"
-      time: "10am-6pm"
+      time: "closed"
 
     - day: "Sunday"
-      time: "10am-6pm"
+      time: "closed"
 
   copyright: "© 2025 Create Community Members, all rights reserved"
 
