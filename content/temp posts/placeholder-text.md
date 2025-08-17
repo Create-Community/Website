@@ -3,6 +3,7 @@ author = "Hugo Authors"
 title = "Future #2"
 eventDate = "2025-09-17"
 description = "Lorem Ipsum Dolor Si Amet"
+draft="true"
 tags = [
     "markdown",
     "text",
