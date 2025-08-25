@@ -1,6 +1,6 @@
 +++
 author = "Braeden V"
-title = "Meet and Greet"
+title = "First Meet and Greet"
 eventDate = "2025-08-04"
 tags = [
     "workshop","Meet up", "Beginnings"
@@ -22,6 +22,6 @@ We wanted to show off a few items we think community members may not have had a 
 
 ## Plans going forward
 
-We would like to start host bi-weekly get-togethers that encourage members to bring a project to work on and either have the space to work alone or with fellow like-minded members. I (Braeden) will be hosting these and working on projects in a clean a quiet boardroom. <br/>
+We would like to start host bi-weekly get-togethers that encourage members to bring a project to work on and either have the space to work alone or with fellow like-minded members. I (Braeden) will be hosting these and working on projects at CanScribe College, 1226 Ellis Street, in a clean a quiet boardroom. <br/>
 We'll keep updating our [Substack](https://createcommunitysociety.substack.com/?utm_campaign=profile_chips) to let everyone know when we will be opening the doors for collaboration so subscribe to stay tuned in!
 

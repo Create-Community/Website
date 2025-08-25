@@ -76,22 +76,23 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
+      <div class="col-10 col-xl-2 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Location</h5>
-        <ul class="list-unstyled">
-          {{ range .Site.Params.location }}
-          <li
-            class="d-flex justify-content-center justify-content-xl-start mb-2"
-          >
-            <div class="d-flex align-items-center text-primary">
-              {{ partial "icons/geo-alt.html" }}
+        {{with .Site.Params.location }}
+            <li class="d-flex justify-content-center justify-content-xl-start mb-2">
+              <div class="d-flex align-items-center justify-content-center size-20">
+                <a
+              href="{{ .map }}"
+              ><img src="/images/map.png" height="24"  width="24"> 
+              </div>
+              <div class="d-flex align-items-center justify-content-center size-20">
+              <p class="small text-black-61 m-0 ps-2">{{ .address }}</p>
             </div>
-            <p class="small text-black-61 m-0 ps-2">{{ . }}</p>
-          </li>
-          {{ end }}
-        </ul>
+              </a>
+            </li>       
+        {{ end }}
       </div>
-      <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
+      <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Contact</h5>
 
         {{ range .Site.Params.contact }}
