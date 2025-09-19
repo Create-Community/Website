@@ -30,7 +30,10 @@ params:
     - "images/logo.png"
 
   location:
-    - "Kelowna, BC"
+    map: "https://maps.app.goo.gl/BJfZmsSkuNhqyTPUA"
+    address: "CanScribe College,
+     1226 Ellis Street, Kelowna, BC"
+    
 
   contact:
     - "info@createcommunity.space"
