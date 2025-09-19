@@ -4,7 +4,7 @@ id: "hero"
 content:
   img: "logo.png"
   title: "Creating **Community** Through Collaboration and Technology"
-  text: "We are a non-profit organization dedicated to building multi-purpose, creative environments in local communities across BC. Help us create more collaborative spaces in every community."
+  text: "Currently utilizing CanScribe College's Boardroom at 1226 Ellis Street for our [Bi-weekly](/workshops) events, we are a non-profit organization dedicated to building multi-purpose, creative environments in local communities across BC. Help us create more collaborative spaces in every community."
 
   buttonPrimary:
     label: "How To Support Us"
