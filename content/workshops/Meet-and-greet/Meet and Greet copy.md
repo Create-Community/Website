@@ -5,10 +5,9 @@ eventDate = "2025-08-04"
 tags = [
     "workshop","Meet up", "Beginnings"
 ]
-image= "/images/Main_transparent_reverse.png"
+image= "/images/HeaderFooter.png"
 +++
-<img src="/images/Main_transparent_reverse.png" width="150" height="150">
-<img src="/images/HeaderFooter.png"width="900" height="500">
+
 
 ## We were glad you came!
 Holy Cow. What a day. With Mitch coming all the way from Vancouver to be here for our first official meet and greet, we had an absolute blast meeting our (admittedly small) community! We look forward to meeting more of you in the future!
