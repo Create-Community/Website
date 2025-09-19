@@ -1,0 +1,10 @@
+{{ with resources.Get . }}
+<img
+  class=""
+  src="{{ .Permalink }}"
+  style="border-top-left-radius: 15px; border-top-right-radius: 15px"
+  alt="{{ .Title }}"
+  width="{{ .Width }}"
+  height="{{ .Height }}"
+/>
+{{ end }}

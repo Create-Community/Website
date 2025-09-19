@@ -16,12 +16,17 @@
       {{ range ((.Paginate .RegularPages).Pages.ByParam "eventDate").Reverse }}
 
       <div class="col-12 col-md-6 col-lg-4">
-        <a class="card text-decoration-none h-100" href="{{ .Permalink }}">
+        <a
+          class="card text-decoration-none h-100"
+          href="{{ .Permalink }}"
+          style="border-radius: 20px; border: 5px solid #f5a201"
+        >
           <div class="aspect-ratio-62-5">
-            {{ with .Params.upcoming }} {{ partial "utilities/image"
-            ("images/title.png") }} {{ else }} {{ with .Params.image }} {{
-            partial "utilities/image.html" . }} {{ else }} {{ partial
-            "utilities/image" ("images/logo.png") }} {{end}} {{end}}
+            {{ with .Params.upcoming }} {{ partial "utilities/workshop-image"
+            ("images/blog/upcoming_workshops.png") }} {{ else }} {{ with
+            .Params.image }} {{ partial "utilities/workshop-image.html" . }} {{
+            else }} {{ partial "utilities/workshop-image" ("images/logo.png") }}
+            {{end}} {{end}}
           </div>
           <div class="card-body">
             <h5 class="fw-semibold">{{ .Title }}</h5>
