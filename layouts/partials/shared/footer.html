@@ -76,22 +76,24 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-10 col-xl-2 text-center text-xl-start pb-4">
+
+      <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Location</h5>
-        {{with .Site.Params.location }}
-            <li class="d-flex justify-content-center justify-content-xl-start mb-2">
-              <div class="d-flex align-items-center justify-content-center size-20">
-                <a
-              href="{{ .map }}"
-              ><img src="/images/map.png" height="24"  width="24"> 
-              </div>
-              <div class="d-flex align-items-center justify-content-center size-20">
-              <p class="small text-black-61 m-0 ps-2">{{ .address }}</p>
+
+        {{ with .Site.Params.location }}
+        <a href="{{ .map }}" style="text-decoration: none">
+          <li
+            class="d-flex justify-content-center justify-content-xl-start mb-2"
+          >
+            <div class="d-flex align-items-center text-primary">
+              {{ partial "icons/map.html" }}
             </div>
-              </a>
-            </li>       
+            <p class="small text-black-61 m-0 ps-2">{{ .address }}</p>
+          </li>
+        </a>
         {{ end }}
       </div>
+
       <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
         <h5 class="fs-6 fw-semibold text-primary">Contact</h5>
 
@@ -106,15 +108,6 @@
 
         {{ end }}
       </div>
-      <!-- <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary">Hours of Operation</h5>
-        {{ range .Site.Params.hours }}
-        <div class="row">
-          <p class="small col-6 text-black-61 mb-1">{{.day}}</p>
-          <p class="small col-5 text-xl-end text-black-61 mb-1">{{.time}}</p>
-        </div>
-        {{ end }}
-      </div> -->
     </div>
     <div class="row">
       <div class="col-12">
