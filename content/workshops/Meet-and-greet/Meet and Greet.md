@@ -6,6 +6,7 @@ tags = [
     "workshop","Meet up", "Beginnings"
 ]
 image= "/images/Blog/Meet-and-greet/ahjeez.jpg"
+upcoming="true"
 +++
 
 ## We were glad you came!
