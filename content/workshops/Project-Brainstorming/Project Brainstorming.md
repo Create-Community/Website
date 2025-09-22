@@ -5,7 +5,8 @@ eventDate = "2025-09-24"
 tags = ["brainstorming", 
     "workshop","projects", "creative", "art", "Kelowna"
 ]
-upcoming= "true"
+image= "/images/creativity.jpg"
+upcoming = "true"
 +++
 
 ## Come design some cool projects with us!
