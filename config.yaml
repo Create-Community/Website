@@ -23,7 +23,7 @@ params:
   social:
     instagram: "https://www.instagram.com/create.community.society"
     discord: "https://discord.gg/xqfM4sezCr"
-    patreon: "https://www.patreon.com/CreateCommunity"
+    # patreon: "https://www.patreon.com/CreateCommunity"
 
   image:
     - "images/workspaces.png"
@@ -32,8 +32,7 @@ params:
   location:
     map: "https://maps.app.goo.gl/BJfZmsSkuNhqyTPUA"
     address: "CanScribe College,
-     1226 Ellis Street, Kelowna, BC"
-    
+      1226 Ellis Street, Kelowna, BC"
 
   contact:
     - "info@createcommunity.space"
@@ -68,28 +67,33 @@ menus:
       url: "/#"
       weight: 1
 
-    - name: "Community"
+    - name: "Who We Are"
+      url: "/who-we-are"
       weight: 2
+
+    - name: "Community"
+      weight: 3
+
+    - name: Locations
+      url: "/locations"
+      parent: Community
+      weight: 1
 
     - name: Workshops
       url: "/workshops"
       parent: Community
-      weight: 1
+      weight: 2
 
     - name: Substack
       url: "/substack"
       parent: Community
-      weight: 2
+      weight: 3
 
     # buttons:
     #   - name: "Book a call"
     #     url: "/#"
     #     weight: 5
     #     pre: "btn btn-primary text-light"
-
-    - name: "Who We Are"
-      url: "/who-we-are"
-      weight: 3
 
     - name: "FAQs"
       url: "/faqs"

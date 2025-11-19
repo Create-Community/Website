@@ -3,7 +3,9 @@ id: "pricing"
 
 content:
   title: "Pricing"
-  # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  description:
+    - text: Although we have are not currently open to membership applications, we would still like to showcase the rough outline of how our memberships will be structured.
+    - text: We'd love to hear your feedback in the survey below.
   cards:
     - image: "images/services-web-development.png"
       # price: "$5/day"

@@ -11,8 +11,9 @@
         {{ end }} {{ range site.Data.faqs }}
         <details class="col-8 mx-auto">
           <summary class="h3 col-auto">{{ .q }}</summary>
-          <p class="col-auto">{{ .a }}</p>
-          <p class="col-auto">{{ .a1 }}</p>
+          {{ range .a }}
+          <p class="col-auto">{{ . }}</p>
+          {{ end }}
         </details>
         {{ end }}
       </div>
