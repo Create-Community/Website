@@ -3,6 +3,7 @@ id: "portfolio"
 
 content:
   title: "Our Mission"
+  description: These are our short and long term goals. These outline the core of our organization, so we will work tirelessly to achieve them.
 
   sections:
   - image: "images/workspaces.jpg"
@@ -37,8 +38,7 @@ content:
     opportunity to express their full creativity. With these workshops, we hope to provide a foundation of
     knowledge and motivation to start or grow each member's passion for creation. We are always developing
     new techniques that lead to innovative problem-solving."
-
-    # buttons:
-    #   - label: "Read more"
-    #     url: "/workshops/"
+    buttons:
+      - label: "See Our Workshops"
+        url: "/workshops/"
 #"/workshops/" lists upcoming, current, and past class (or workshops) that we've hosted

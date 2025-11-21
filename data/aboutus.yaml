@@ -3,14 +3,14 @@ id: "aboutus"
 
 content:
   team:
-    - img: "/images/profile/0 (1).jpg"
+    - img: "/images/profile/mitch_1.jpg"
       name: "Mitch Goertzen"
       degree: "BSc Computer Science"
-      position: "President"
-      bio: "I am a 28-year-old with a bachelor's degree in computer science from the University of Calgary. I currently live in Vancouver working in an environmental lab, and during my free time, you will probably find me developing software, or watching a new show or YouTube video. I believe everyone should have access to enough space to create their personal trades or art projects. While increasing the size of everyone's home may be out of my ability, opening a community workspace isn't."
+      position: "Co-Founder"
+      bio: "I am a 20-something year-old with a bachelor's degree in computer science from the University of Calgary. I currently live in Vancouver working in an environmental lab, and during my free time, you will probably find me developing software, or watching a new show or YouTube video. I believe everyone should have access to enough space to create their personal trades or art projects. While increasing the size of everyone's home may be out of my ability, opening a community workspace isn't."
 
     - img: "/images/profile/0(2).jpg"
       name: "Braeden Vandervelde"
       degree: "BSc Computer Science"
-      position: "Vice-President"
+      position: "Co-Founder"
       bio: "Hello! I'm Braeden! Originally from Prince George, I moved to the beautiful Okanagan in late 2021 after getting my computer science degree from UNBC. With northern heritage and an upbringing of large tool shops, I've dreamt of a place to let loose on projects. I want to create the community you think of when you’re feeling creative; whether it’s at home or elsewhere in the country I want everyone to have somewhere to go."

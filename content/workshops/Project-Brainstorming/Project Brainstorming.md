@@ -6,7 +6,6 @@ tags = ["brainstorming",
     "workshop","projects", "creative", "art", "Kelowna"
 ]
 image= "/images/creativity.jpg"
-upcoming = "true"
 +++
 
 ## Come design some cool projects with us!

@@ -3,4 +3,4 @@ id: "donations"
 
 content:
   title: "Please Consider Leaving a Donation"
-  text: "All proceeds will go towards a community fund which we use to open creative workspaces"
+  description: "All proceeds will go towards a community fund which we use to open creative workspaces"

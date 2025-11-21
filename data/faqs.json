@@ -1,34 +1,38 @@
 [
   {
-    "q": "How Do I Start Using The Space?",
-    "a": "Drop in during any open hours, and all that's needed is to fill out a safety waiver."
+    "q": "What Are We Doing?",
+    "a": ["We are organizing a community work space that is accessible to people at all levels of skill and interest."]
   },
   {
-    "q": "Do I Need a Membership?",
-    "a": "No, there will be a free-to-use work area available to everyone. but power tools and machinery, materials, and reserved space will have fees."
+    "q": "What Will Be in the Work Space?",
+    "a": ["What the work space will hold will be entirely up to the community it revolves around.",
+        "A default work space would include small woodworking tools, some power tools, 3D printers, electronics + soldering equipment , and some textiles + art equipment. These are suggestions, so this is not guaranteed to be the end product."]
   },
   {
-    "q": "What's Included in a Membership?",
-    "a": "The base-level membership will include free use of power tools, machinery, and space reservations."
+    "q": "What Can The Work Space Be Used For?",
+    "a": ["The work space can be used for trades/art adjacent projects that do not require a lot of room and can be accomplished safely.",
+        "The intended use of the work space is mixed, so you can work on a serious project, build some furniture for your apartment, or just hang out."]
   },
   {
-    "q": "How Much Will a Membership Cost?",
-    "a": "The current price of a monthly membership is $75, but this is subject to change. All other one-time usage and rental fees have yet to be determined."
+    "q": "How Much Will the Work Space Cost?",
+    "a": ["This will be the biggest challenge of this venture, because the cost per person will be dependent on the location we can lease.", 
+        "We hope to keep this affordable to all, but the current maximum projected cost is $75 per month, and will include full access to the space and tools.", 
+        "Lower cost options will be available, but will have limited access."]
   },
   {
-    "q": "How Long Do Memberships Last?",
-    "a": "Monthly or yearly."
+    "q": "What is the Difference Between This and a Maker Space?",
+    "a": ["With the utmost respect to maker spaces, as they serve an important role in local communities, we see them as a club to serve its members, which due to the large cost of running something like it, creates a financial barrier for many people that would otherwise benefit from the space.",
+        "With Create Community, we make it our goal to lower that financial barrier of entry, so that we can serve the community that we are a part of.",
+        "Similar to a library, at Create Community space you can expect to come and go as you please, socialize, or relax by yourself."]
   },
   {
-    "q": "Can I Bring My Own Tools and Materials?",
-    "a": "Yes, as long as they fit within our safety rules and regulations and you have been given authorization to use them."
+    "q": "Who is Create Community?",
+     "a": ["We are a community, first and foremost. It's in our name, so we kind of have to hold up to that.",
+          "Create Community was founded by two people who shared the dream of connecting everyone that is passionate about creating, so that we can grow into a cornerstone that enables the realization of goals, hobbies, projects, careers, or friendships that were seemingly impossible to achieve before."]
   },
   {
-    "q": "How Can I Be Authorized To Use Tools and Materials?",
-    "a": "Through passing our safety assessment for specific items."
-  },
-  {
-    "q": "What Types of Projects Can I Work On?",
-    "a": "Anything that has a designated area in our space. If there is something we missed, please let us know and we will try to accommodate it."
+    "q": "How Can You Help?",
+    "a": ["You can help in many ways, each way is just as important.",
+        "You can follow us on our social media. You can donate to our campaign. You can contact city council and let them know you’re interested in a space like this and that you recommend us to run it. You can show up to our bi-weekly workshops or special events."]
   }
 ]
