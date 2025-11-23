@@ -3,7 +3,7 @@ id: "portfolio"
 
 content:
   title: "Our Mission"
-  description: These are our short and long term goals. These outline the core of our organization, so we will work tirelessly to achieve them.
+  description: These are our short and long term goals. They outline the core of our organization, so we will work tirelessly to achieve them.
 
   sections:
   - image: "images/workspaces.jpg"
