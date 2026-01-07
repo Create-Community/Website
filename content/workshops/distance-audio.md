@@ -5,7 +5,7 @@ eventDate = "2025-11-20"
 tags = [
     "workshop","Meet up", "arduino"
 ]
-upcoming = true
+image= "/images/Blog/Arduino/arduino1.png"
 +++
 
 # Thursday November 20th at 7:00PM
