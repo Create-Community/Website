@@ -1,20 +1,21 @@
 +++
 author = "Mitch G"
-title = "First Event of 2026!"
-eventDate = "2026-01-14"
+title = "Repurposing Epson Headsets Pt. II"
+eventDate = "2026-01-28"
 tags = [
-    "workshop","Meet up"
+    "workshop","Meet up", "epson"
 ]
 image="/images/Blog/Epson/epson-oggy.png"
+upcoming="true"
 +++
 
-# Wednesday January 14th at 7:00PM
+# Wednesday January 28th at 7:00PM
 
 <br>
 
-For our first event of 2026, will be working on a unique project: Repurposing Epson BT-200 augmented reality headsets.
+This week, we will continue working on this unique project: Repurposing Epson BT-200 Augmented reality headsets.
 
-We will be attempting to reverse engineer the wiring to create open-source schematics that will hopefully make these e-waste glasses into heads up displays!
+Last week we came up with a plan to remove one of the video chips and determine how it interacts with the wiring of the headset. This week we will start integrating the video cable with the headset based on what we've learned about the chip.
 
 Don't be discouraged! We will be going step-by-step through the process so anyone can join and learn something new!
 
