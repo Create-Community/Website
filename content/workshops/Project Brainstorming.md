@@ -5,7 +5,7 @@ eventDate = "2025-10-08"
 tags = ["brainstorming", 
     "workshop","projects", "creative", "art", "Kelowna"
 ]
-image= "/images/creativity.jpg"
+image="/images/Blog/Brainstorming/boardroom.jpg"
 +++
 
 ## Come design some cool projects with us!

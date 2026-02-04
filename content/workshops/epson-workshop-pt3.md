@@ -1,20 +1,21 @@
 +++
 author = "Mitch G"
-title = "Repurposing Epson Headsets Pt. II"
-eventDate = "2026-01-28"
+title = "Repurposing Epson Headsets Pt. III"
+eventDate = "2026-02-11"
 tags = [
     "workshop","Meet up", "epson"
 ]
 image="/images/Blog/Epson/epson-workshop.jpg"
+upcoming="true"
 +++
 
-# Wednesday January 28th at 7:00PM
+# Wednesday February 11th at 7:00PM
 
 <br>
 
-This week, we will continue working on this unique project: Repurposing Epson BT-200 Augmented reality headsets.
+We are again continuing to work on repurposing Epson BT-200 Augmented reality headsets.
 
-Last week we came up with a plan to remove one of the video chips and determine how it interacts with the wiring of the headset. This week we will start integrating the video cable with the headset based on what we've learned about the chip.
+Last week we removed the chip and looked over documentation on how to connect to it. This week we will be finding where the pins go!
 
 Don't be discouraged! We will be going step-by-step through the process so anyone can join and learn something new!
 
