@@ -1,9 +1,9 @@
 +++
 author = "Mitch G"
-title = "Repurposing Epson Headsets Pt. III"
+title = "Small Electronics Repair"
 eventDate = "2026-02-11"
 tags = [
-    "workshop","Meet up", "epson"
+    "workshop","Meet up", "epson", "soldering"
 ]
 image="/images/Blog/Epson/epson-workshop.jpg"
 upcoming="true"
@@ -13,11 +13,9 @@ upcoming="true"
 
 <br>
 
-We are again continuing to work on repurposing Epson BT-200 Augmented reality headsets.
+This week we will be giving soldering tutorials to our members and attempting to fix a computer headset and other small electronics.
 
-Last week we removed the chip and looked over documentation on how to connect to it. This week we will be finding where the pins go!
-
-Don't be discouraged! We will be going step-by-step through the process so anyone can join and learn something new!
+If you have any broken electronics that could be repaired, bring it in and we will work on repairing it!
 
 If this project isn't your thing, please still feel free to come down and work on some of your own projects! Just let us know if you need any specific tools and we'll work hard to accommodate with what we have available.
 
