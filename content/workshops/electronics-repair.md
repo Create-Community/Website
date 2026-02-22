@@ -5,8 +5,7 @@ eventDate = "2026-02-11"
 tags = [
     "workshop","Meet up", "epson", "soldering"
 ]
-image="/images/Blog/Epson/epson-workshop.jpg"
-upcoming="true"
+image="/images/Blog/Electronics-Repair/electronics-repair.jpg"
 +++
 
 # Wednesday February 11th at 7:00PM
