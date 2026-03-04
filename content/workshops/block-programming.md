@@ -5,8 +5,8 @@ eventDate = "2026-02-25"
 tags = [
     "workshop","Meet up", "block programming", "programming"
 ]
-image="/images/Blog/Epson/epson-workshop.jpg"
-upcoming="true"
+image="/images/Blog/Block-Programming/moisture.png"
+
 +++
 
 # Wednesday February 25th at 7:00PM
