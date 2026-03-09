@@ -22,7 +22,7 @@ params:
 
   social:
     instagram: "https://www.instagram.com/create.community.society"
-    discord: "https://discord.gg/xqfM4sezCr"
+    # discord: "https://discord.gg/xqfM4sezCr"
     # patreon: "https://www.patreon.com/CreateCommunity"
 
   image:
