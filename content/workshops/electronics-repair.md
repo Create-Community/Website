@@ -8,11 +8,11 @@ tags = [
 image="/images/Blog/Electronics-Repair/electronics-repair.jpg"
 +++
 
-# Wednesday February 11th at 7:00PM
+# On Wednesday February 11th at 7:00PM...
 
 <br>
 
-This week we will be giving soldering tutorials to our members and attempting to fix a computer headset and other small electronics.
+We will be giving soldering tutorials to our members and attempting to fix a computer headset and other small electronics.
 
 If you have any broken electronics that could be repaired, bring it in and we will work on repairing it!
 

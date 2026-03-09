@@ -8,7 +8,7 @@ tags = [
 image= "/images/Blog/Arduino/arduino1.png"
 +++
 
-# Thursday November 20th at 7:00PM
+# On Thursday November 20th at 7:00PM...
 
 <br>
 

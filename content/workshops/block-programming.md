@@ -9,7 +9,7 @@ image="/images/Blog/Block-Programming/moisture.png"
 
 +++
 
-# Wednesday February 25th at 7:00PM
+# On Wednesday February 25th at 7:00PM...
 
 <br>
 

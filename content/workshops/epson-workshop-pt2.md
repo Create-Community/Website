@@ -8,7 +8,7 @@ tags = [
 image="/images/Blog/Epson/epson-workshop.jpg"
 +++
 
-# Wednesday January 28th at 7:00PM
+# On Wednesday January 28th at 7:00PM...
 
 <br>
 

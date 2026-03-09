@@ -5,7 +5,7 @@ eventDate = "2026-03-11"
 tags = [
     "workshop","Meet up", "block programming", "programming", "micromouse"
 ]
-image="/images/Blog/Block-Programming/moisture.png"
+image="/images/Blog/Block-Programming/micromouse-maze.jpg"
 upcoming="true"
 
 +++
