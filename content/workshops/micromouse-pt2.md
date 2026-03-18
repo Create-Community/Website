@@ -1,20 +1,20 @@
 +++
 author = "Mitch G"
-title = "Micromouse Racers Pt. I"
-eventDate = "2026-03-11"
+title = "Micromouse Racers Pt. II"
+eventDate = "2026-03-25"
 tags = [
     "workshop","Meet up", "block programming", "programming", "micromouse"
 ]
 image="/images/Blog/Block-Programming/micromouse-maze.jpg"
-
+upcoming="true"
 
 +++
 
-# On Wednesday March 11th at 7:00PM...
+# On Wednesday March 25th at 7:00PM...
 
 <br>
 
-We will be hosting a micromouse block programming session!
+We will be hosting day 2 of our Micro Mouse block programming project!
 
 _What is [block programming](https://uiflow2.m5stack.com/) you ask?_
 
