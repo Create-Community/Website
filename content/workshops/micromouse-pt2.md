@@ -1,26 +1,23 @@
 +++
 author = "Mitch G"
-title = "Micromouse Racers Pt. II"
-eventDate = "2026-03-25"
+title = "Micromouse Racer Pt. II"
+eventDate = "2026-04-22"
 tags = [
     "workshop","Meet up", "block programming", "programming", "micromouse"
 ]
-image="/images/Blog/Block-Programming/micromouse-maze.jpg"
-upcoming="true"
-
+image="/images/Blog/Micromouse/micromouse.jpg"
+Upcoming="true"
 +++
 
-# On Wednesday March 25th at 7:00PM...
+# On Wednesday April 22nd at 7:00PM...
 
 <br>
 
-We will be hosting day 2 of our Micro Mouse block programming project!
+We will be hosting day 2 of our Micromouse build project!
 
-_What is [block programming](https://uiflow2.m5stack.com/) you ask?_
+Like our previous events, we will be working on our micro mouse project. This time however, we will be tackling the electronic component section! We will be going over our parts and how they interact with each other, as well as continuing to create the layout of our mouse.
 
-Block programming is a way to code devices and apps with simple to understand puzzle pieces. We are able to do really amazing things with these simple little blocks and would love to show you how you can start coding your own [Micromouse Maze Racer](https://en.wikipedia.org/wiki/Micromouse)!
-
-Please join us Wednesday, March 25th, 7:00PM, at 1226 Ellis Street for an opportunity to learn a new way of interacting with our world!
+Please join us Wednesday, April 22nd, 7:00PM, at 1226 Ellis Street for an opportunity to learn a new way of interacting with our world!
 
 We will also be providing demo microcontrollers that will show off garden automation as well as a workstation to create your own systems.
 
