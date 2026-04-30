@@ -13,8 +13,11 @@
         <div style="text-align: center">{{ .Content }}</div>
       </div>
     </div>
+
     <div class="row g-4 pb-5">
-      {{ range ((.Paginate .RegularPages).Pages.ByParam "eventDate").Reverse }}
+      {{ $pages := where .Site.RegularPages "Section" "workshops" }} {{ $pages =
+      ($pages.ByParam "eventDate").Reverse }} {{ range ((.Paginate $pages 6
+      ).Pages) }}
 
       <div class="col-12 col-md-6 col-lg-4">
         <a

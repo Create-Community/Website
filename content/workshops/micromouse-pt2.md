@@ -6,7 +6,6 @@ tags = [
     "workshop","Meet up", "block programming", "programming", "micromouse"
 ]
 image="/images/Blog/Micromouse/micromouse.jpg"
-Upcoming="true"
 +++
 
 # On Wednesday April 22nd at 7:00PM...
