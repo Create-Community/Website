@@ -132,3 +132,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+include: [".well-known"]
