@@ -6,7 +6,6 @@ tags = [
     "workshop","Meet up", "block programming", "programming", "3D Design", "CAD Modelling"
 ]
 image="/images/Blog/CAD/3d-cad.png"
-upcoming="true"
 
 +++
 

@@ -1,0 +1,64 @@
+{{ define "main" }}
+
+<section class="section blog-single py-5">
+  <div class="" style="margin-left: 10%; margin-right: 10%">
+    <div class="row justify-content-center">
+      <div class="col-9">
+        {{ with .Title }}
+        <h2 class="page-title display-3 fw-bold text-center text-primary pb-3">
+          {{ . }}
+        </h2>
+        {{ end }} {{ with .Params.description }}
+        <p class="text-black-61 text-center">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="row pb-5">
+      <div class="col-12 justify-content-center">
+        <div class="blog-content fs-5 mx-auto">{{ .Content }}</div>
+      </div>
+    </div>
+
+    <div style="display: flex">
+      <div style="flex: 33.33%; padding: 5px">
+        <img
+          src="/images/LOGO.png"
+          alt="event-poster"
+          style="width: 80%; aspect-ratio: 17/22"
+        />
+      </div>
+      <div
+        style="
+          justify-items: center;
+          align-self: center;
+          flex: 33.33%;
+          padding: 5px;
+        "
+      >
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1284.402882341479!2d-119.44189380985189!3d49.92122038298121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537df2f0fa664e43%3A0x9883b572eece4370!2sSnowsell%20St%2C%20Kelowna%2C%20BC!5e0!3m2!1sen!2sca!4v1780544184554!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div>
+            <h4>
+              The exact location of the event is in the culdesac
+              <a
+                style="text-decoration: none"
+                href="https://maps.app.goo.gl/gjtNew7F2oMr368S9"
+                >here</a
+              >!
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

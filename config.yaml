@@ -89,6 +89,10 @@ menus:
       parent: Community
       weight: 3
 
+    - name: Planter Box
+      url: "/planter-box-workshop"
+      parent: Community
+      weight: 4
     # buttons:
     #   - name: "Book a call"
     #     url: "/#"
