@@ -10,7 +10,7 @@ URL = "/planter-box-workshop/"
 
 We are hosting an afternoon workshop where everyone in the neighbourhood can get together and build planter boxes. If anyone is unfamiliar with building and woodworking, we will be able to offer instruction and guide you through the process. If you don't want to build, we invite you to come and join us for the day regardless, as you may learn something useful, discover a new hobby, or just have a fun time.
 
-To make this event possible, we rely on donations to cover the cost of materials. If you are interested in building planter boxes with us, see our link below to make a one-time donation (min. $20). With this dontation, you are guaranteed everything you need to build your own planter box!
+To make this event possible, we rely on donations to cover the cost of materials. If you are interested in building planter boxes with us, see our link below to make a one-time donation (min. $20). With this donation, you are guaranteed everything you need to build your own planter box!
 
   <div style="display: flex; justify-content: center; align-items: center; padding:10px; margin-bottom:10px">
       <script
