@@ -34,3 +34,5 @@ To make this event possible, we rely on donations to cover the cost of materials
 If you are able to donate more than the minimum, we thank you immensely, as this helps us reach our goal and make it possble more people to join us. -->
 
 If you are unable to donate, you can still show up and hang out or even bring your own materials to build with. And we may have some extra boxes leftover for you to take home :)
+
+PLEASE NOTE ALL TICKET SALES WILL END JUNE 26
