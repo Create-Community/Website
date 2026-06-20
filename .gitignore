@@ -1,3 +1,4 @@
 themes/up-business-theme_old/
 public/
 resources/_gen/
+themes/up/layouts/partials/head/_resources.html
