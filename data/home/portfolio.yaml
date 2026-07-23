@@ -18,7 +18,7 @@ content:
     #     url: "/workspaces/"
 # "/workspaces/" details each currently open workspace/partner space
 
-  - image: "images/outreach.jpg"
+  - image: "images/community.jpg"
     pretitle: "Community"
     title: "Fostering connections, expanding learning opportunities, and being open to anyone"
     text: "By expanding into new communities, our outreach supports other local groups or makerspaces
