@@ -26,4 +26,4 @@ We wanted to show off a few items we think community members may not have had a 
 
 We are starting to host bi-weekly get-togethers that encourage members to bring projects that they can either work on alone or with fellow like-minded members. I (Braeden) will be organizing these and working on my own projects at CanScribe College, 1226 Ellis Street, in a clean and quiet boardroom.
 
-We'll keep updating our Substack to let everyone know when we will be opening the doors for collaboration, so subscribe to stay tuned in!
+We'll post updates in our newsletter to let everyone know when we will be opening the doors for collaboration, so subscribe to stay tuned in!

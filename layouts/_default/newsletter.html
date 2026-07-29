@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<section class="section blog-single py-5">
+  <div class="" style="margin-left: 15%; margin-right: 15%">
+    <div class="row justify-content-center">
+      <div class="col-9">
+        {{ with .Title }}
+        <h2 class="page-title display-3 fw-bold text-center text-primary pb-3">
+          {{ . }}
+        </h2>
+        {{ end }} {{ with .Params.description }}
+        <p class="text-black-61 text-center">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col-12 justify-content-center">
+        <div class="blog-content fs-5 mx-auto">{{ .Content }}</div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <form
+        method="post"
+        action="https://newsletter.createcommunity.space/subscription/form"
+        class="listmonk-form col-3"
+      >
+        <div>
+          <h3>Subscribe</h3>
+          <input type="hidden" name="nonce" />
+
+          <p>
+            <input type="email" name="email" required placeholder="E-mail" />
+          </p>
+          <p><input type="text" name="name" placeholder="Name (optional)" /></p>
+
+          <p>
+            <input
+              id="990a7"
+              type="checkbox"
+              name="l"
+              checked
+              value="990a7d05-5541-408f-9d39-a5bb445c12b4"
+            />
+            <label for="990a7">Create Community Newsletter</label>
+            <br />
+            <span>For subscribers to receive our creative newsletters</span>
+          </p>
+
+          <altcha-widget
+            challengeurl="https://newsletter.createcommunity.space/api/public/captcha/altcha"
+          ></altcha-widget>
+          <script
+            type="module"
+            src="https://newsletter.createcommunity.space/public/static/altcha.umd.js"
+            async
+            defer
+          ></script>
+
+          <input type="submit" value="Subscribe " />
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+{{ end }}

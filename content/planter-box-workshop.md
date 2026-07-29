@@ -8,7 +8,7 @@ tags = [
 URL = "/planter-box-workshop/"
 +++
 
-We are hosting a **_FREE_** afternoon workshop where everyone in the neighbourhood can get together and build planter boxes.
+We are hosting a **_FREE_** afternoon workshop on July 5, 2026 where everyone in the neighbourhood can get together and build planter boxes.
 If anyone is unfamiliar with building and woodworking, we will be able to offer instruction and guide you through the process.
 If you don't want to build, we invite you to come and join us for the day regardless, as you may learn something useful, discover a new hobby, or just have a fun time.
 

@@ -22,6 +22,7 @@ params:
 
   social:
     instagram: "https://www.instagram.com/create.community.society"
+    facebook: "https://www.facebook.com/profile.php?id=61591774282940"
     # discord: "https://discord.gg/xqfM4sezCr"
     # patreon: "https://www.patreon.com/CreateCommunity"
 
@@ -59,7 +60,7 @@ params:
     - day: "Sunday"
       time: "closed"
 
-  copyright: "© 2025 Create Community Members, all rights reserved"
+  copyright: "© 2026 Create Community Members, all rights reserved"
 
 menus:
   main:
@@ -84,8 +85,8 @@ menus:
       parent: Community
       weight: 2
 
-    - name: Substack
-      url: "/substack"
+    - name: Newsletter
+      url: "/newsletter"
       parent: Community
       weight: 3
 
