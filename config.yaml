@@ -85,13 +85,13 @@ menus:
       parent: Community
       weight: 2
 
-    - name: Newsletter
-      url: "/newsletter"
+    - name: Events
+      url: "/events"
       parent: Community
       weight: 3
 
-    - name: Planter Box
-      url: "/planter-box-workshop"
+    - name: Newsletter
+      url: "/newsletter"
       parent: Community
       weight: 4
     # buttons:

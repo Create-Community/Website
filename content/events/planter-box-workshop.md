@@ -5,7 +5,6 @@ layout = "planterbox"
 tags = [
     "workshop","Meet up", "block programming", "programming", "3D Design", "CAD Modelling"
 ]
-URL = "/planter-box-workshop/"
 +++
 
 We are hosting a **_FREE_** afternoon workshop on July 5, 2026 where everyone in the neighbourhood can get together and build planter boxes.

@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="section blog-list py-5 mt-4">
+  <div class="container">
+    <div class="row justify-content-center pb-5">
+      <div class="col-12 col-xl-6 px-5 justify-content-center">
+        {{ with .Title }}
+        <h2 class="page-title display-4 fw-bold text-center text-primary pb-3">
+          {{ . }}
+        </h2>
+        {{ end }} {{ with .Params.description }}
+        <p class="text-black-61 text-center pb-3">{{ . }}</p>
+        {{ end }}
+        <div style="text-align: center">{{ .Content }}</div>
+      </div>
+    </div>
+
+    <div class="row g-4 pb-5">
+      {{ $pages := where .Site.RegularPages "Section" "events" }} {{ $pages =
+      ($pages.ByParam "eventDate").Reverse }} {{ range ((.Paginate $pages 6
+      ).Pages) }}
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <a
+          class="card text-decoration-none h-100"
+          href="{{ .Permalink }}"
+          style="border-radius: 20px; border: 3px solid #ffba42"
+        >
+          <div class="aspect-ratio-62-5">
+            {{ with .Params.upcoming }} {{ partial "utilities/workshop-image"
+            ("images/Blog/upcoming_workshops_v2.png") }} {{ else }} {{ with
+            .Params.image }} {{ partial "utilities/workshop-image.html" . }} {{
+            else }} {{ partial "utilities/workshop-image" ("images/logo.png") }}
+            {{end}} {{end}}
+          </div>
+          <div class="card-body">
+            <h5 class="fw-semibold">{{ .Title }}</h5>
+            <p class="card-text">{{ .Summary | plainify }}</p>
+          </div>
+
+          <p class="align-self-end justify-content-end text-black-61 px-3">
+            {{ with .Params.eventDate }} {{ . | time.Format ":date_medium" }} {{
+            end }}
+          </p>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="row pb-5">{{ template "_internal/pagination.html" . }}</div>
+  </div>
+</section>
+{{ end }}
