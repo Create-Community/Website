@@ -137,4 +137,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+server:
+  headers:
+    - for: "/**"
+      values:
+        Access-Control-Allow-Origin: "*"
+
 include: [".well-known"]

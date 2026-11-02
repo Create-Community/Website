@@ -5,3 +5,5 @@
 [build.environment]
   HUGO_VERSION = "0.83.1"
 
+[security]
+cors_origins = ["https://www.createcommunity.space/", "https://createcommunity.space/"]
