@@ -15,7 +15,7 @@ description = "We are operating out of two cities in British Columbia, but as of
 
 <br>
 
-Kelowna is our current operating location. We host bi-weekly get-togethers and informative [workshops](/workshops) at 1226 Ellis St, Kelowna, BC, which take place on the second and fourth Wednesday of every month (barring unforeseen circumstances). If these are something that interest you, don't hesitate to drop by or leave [suggestions](https://forms.gle/iUjkG2PtVFGyWuRV8) as to what we should host next.
+Kelowna is our current operating location. We host monthly townhalls and informative [workshops](/workshops) at 1226 Ellis St, Kelowna, BC, which take place on the first Wednesday of every month (barring unforeseen circumstances). If these are something that interest you, don't hesitate to drop by or leave [suggestions](https://forms.gle/iUjkG2PtVFGyWuRV8) as to what we should host next.
 
 <br><br>
 
