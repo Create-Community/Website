@@ -91,7 +91,7 @@ menus:
       weight: 3
 
     - name: Newsletter
-      url: "/newsletter"
+      url: "https://newsletter.createcommunity.space/subscription/form"
       parent: Community
       weight: 4
     # buttons:

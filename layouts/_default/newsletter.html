@@ -23,11 +23,16 @@
       <form
         method="post"
         action="https://newsletter.createcommunity.space/subscription/form"
-        class="listmonk-form col-3"
+        class="listmonk-form"
       >
         <div>
           <h3>Subscribe</h3>
           <input type="hidden" name="nonce" />
+          <input
+            type="hidden"
+            name="next"
+            value="https://createcommunity.space/"
+          />
 
           <p>
             <input type="email" name="email" required placeholder="E-mail" />
@@ -56,6 +61,7 @@
             async
             defer
           ></script>
+
           <input type="submit" value="Subscribe " />
         </div>
       </form>
